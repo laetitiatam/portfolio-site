@@ -1,0 +1,75 @@
+/* Global */
+
+body {
+    font-famiy: Georgia, "Times New Roman", Times, serif;
+    color: #000000;
+    margin-top: 50px;
+}
+
+header {}
+
+#header-logo {
+  height: 40px;
+}
+
+
+/* Navigation */
+
+.navbar-fixed-top {
+  height: 100px;
+}
+
+  .navbar-brand,
+  .navbar-nav li a {
+      line-height: 100px;
+      height: 100px;
+}
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+
+.navbar .navbar-nav> li {
+      width: 100px;
+
+}
+
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        color: #fff;
+    }
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+
+/* Content Areas */
+.about {
+
+}
+
+.work {
+
+}
+
+.container-project {
+  border: 1px;
+}
+
+.blog {
+
+}
+
+.contact {
+
+}
