@@ -10,48 +10,27 @@ header {}
 
 #header-logo {
   height: 40px;
+  left: 50%;
 }
 
 
 /* Navigation */
 
-.navbar-fixed-top {
-  height: 100px;
+.navbar {
+  min-height: 100px;
 }
 
-  .navbar-brand,
-  .navbar-nav li a {
-      line-height: 100px;
-      height: 100px;
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    text-align: center;
+    margin: auto;
 }
-
-  .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-  }
-
-  .navbar .navbar-collapse {
-      text-align: center;
-  }
-
-.navbar .navbar-nav> li {
-      width: 100px;
-
+.navbar-toggle {
+    z-index:3;
 }
-
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        color: #fff;
-    }
-    .navbar>.container .navbar-brand-centered,
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
-
 
 /* Content Areas */
 .about {
